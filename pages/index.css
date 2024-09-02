@@ -134,6 +134,11 @@
   margin: 80px;
 }
 
+.recipes__videos iframe {
+  border:0;
+}
+
+
 .recipes__video-caption{
   display:flex;
   justify-content: space-between;
