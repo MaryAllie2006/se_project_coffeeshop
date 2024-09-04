@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+To improve the webpage further I would add a more interesting layout of the Recipes Section. The header should be more captivating, the font is very bland. I also think the videos should be more distinct from each other more and their captions in a larger font size. 
