@@ -186,7 +186,7 @@
   border-radius: 4px;
 }
 
-.form_buttom{
+.form__buttom{
   padding: 20px 20px;
   width: 100%;
   box-sizing: border-box;
@@ -202,8 +202,10 @@
   border-radius: 2px;
 }
 
-.form_label_type_checkbox{
-  display:flex;
+.form__label--type-checkbox {
+  display: flex;
   justify-content: center;
+  align-items: center;
   gap: 12px;
 }
+
