@@ -3,14 +3,15 @@
   display: flex;
   position:relative;
   overflow: hidden;
+  padding: 0 80px;
 
  }
 
  .about__title{
     max-width: 251px;
     margin: 0;
-    padding: 100px 0 0 80px;
-    font-family: "Inter";
+    padding: 100px 0 0 0;
+    font-family: "Inter", Arial, sans-serif;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -22,9 +23,9 @@
 
  .about__content{
   max-width: 660px;
-  padding: 110px;
-  margin: 0 auto;
-  font-family: "Noto Serif";
+  padding: 119px 0 173px 0;
+  margin-left: auto;
+  font-family:"Noto serif", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   color:#fff;
@@ -32,7 +33,7 @@
  }
 
  .about__paragraph{
-  margin-top: 20px;
+  margin-top: 0;
  }
 
  .about__circle{
@@ -47,14 +48,6 @@
 }
 
 .about__circle_animation_blurred{
-  position: absolute;
-  height: 426px;
-  width: 426px;
-  background-color: #1878DC;
-  border-radius: 50%;
-  z-index: 1;
-  top: -152px;
-  left: -129px;
   opacity: 0;
   animation: pulsate 1.3s ease-in-out infinite;
 }
@@ -66,7 +59,7 @@
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.2);
+    transform: scale(1);
   }
   100% {
     opacity: 0;

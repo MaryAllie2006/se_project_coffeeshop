@@ -1,9 +1,8 @@
 .footer{
-  display: flex;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
   padding: 60px 80px;
   justify-content: space-between;
-  position: relative;
+  align-items: flex-start;
 }
 
 .footer__content{
@@ -30,12 +29,10 @@
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 20px;
-
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
-  font-size: 16px;
   line-height: 20px;
+  margin-bottom: 16px;
 
 }
 
@@ -51,14 +48,17 @@
 
 }
 
+.footer__list-item:last-child{
+  margin-bottom: auto;
+}
+
 .footer__social-link {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-family: "Inter";
-  font-size: 16px;
+  font-family: "Inter", Arial, sans-serif;
   line-height: 20px;
 }
 
@@ -69,11 +69,9 @@
 }
 
 .footer__copyright {
-  position: absolute;
-  margin: 108px 0 60px 0;
+  margin: 108px 0 60px;
   font-size: 16px;
   color: #fff;
-  font-family: "Inter";
-  font-size: 16px;
+  font-family: "Inter", Arial, sans-serif;
   line-height: 20px;
 }
