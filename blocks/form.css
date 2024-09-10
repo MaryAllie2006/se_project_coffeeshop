@@ -1,15 +1,15 @@
-.form{
+.form {
   max-width: 385px;
 }
 
-.form__fieldset{
+.form__fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.form__input{
-  display:block;
+.form__input {
+  display: block;
   width: 100%;
   padding: 15px 20px;
   box-sizing: border-box;
@@ -21,20 +21,26 @@
   line-height: 30px;
 }
 
-.form__buttom{
+.form__buttom {
+  margin: auto;
   padding: 20px 20px;
   width: 100%;
   box-sizing: border-box;
   margin: 0 0 32px;
-  background-color:#1878DC;
+  background-color: #1878dc;
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border-radius: 4px;
 }
 
-.form__checkbox{
+.form__buttom:hover{
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
